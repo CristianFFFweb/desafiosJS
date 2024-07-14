@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1 - JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="card">
+            <div class="img-card"></div>
+              <h6>Laptop Gamer AMD</h6>
+              <p>Precio base: $<span class="precio-inicial"></span> </p>
+        
+              <p>Cantidad:
+                <span class="cantidad">0</span>
+                <button class="sumador" onclick="{
+                    console.log(cantidadSuma);
+                    suma++;
+                    resta=suma;
+                    cantidadSuma.innerHTML=suma;
+                    totalSpan.innerHTML=suma*precio;
+                    console.log(suma);
+                }"
+                >+</button>
+                <button class="restador" onclick="{
+                    console.log(cantidadSuma);
+                    if (resta>0){
+                    resta--;
+                    suma=resta;
+                    cantidadSuma.innerHTML=resta;
+                    totalSpan.innerHTML=resta*precio;
+                    console.log(resta);}
+                    else {
+                        resta=0;
+                        suma=resta;
+                    }
+                }"
+                >-</button>
+              </p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="total-section">
+        <p>Total a pagar: $<span class="valor-total"></span> </p>
+    </div>
+
+    <script src="index.js">
+      
+
+    </script>
+</body>
+</html>
