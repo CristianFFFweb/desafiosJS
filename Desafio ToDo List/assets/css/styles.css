@@ -1,0 +1,69 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    padding: 10px;
+    border-radius: .25em;
+}
+.boxToDo {
+    width:70vw;
+    background-color:darkslategrey;
+    padding: 50px;
+    border-radius: 1em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listaTareas {
+    width:70vw;
+    background-color:rgb(145, 226, 226);
+    padding:5px 50px 5px 50px;
+    border-radius: 1em;
+    display:flex;
+    
+    align-items: center;
+}
+.lista {
+    background-color: rgba(240, 248, 255, 0.63);
+    padding: 20px;
+    border-radius: .5em;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+}
+
+.cuentaTareas {
+    display: flex;
+    flex-direction: column;
+}
+
+.contador {
+    display:flex;
+}
+section {
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.158);
+    color:blue;
+    border-radius: .5em;
+}
+.muestraTareas {
+    display:flex;
+}
+article {
+    display:flex;
+    justify-content: space-around;
+}
+
+article div {
+   
+    background-color: rgb(5, 33, 43);
+    padding:5px;
+    width:100%;
+    color:aliceblue;
+  
+}
