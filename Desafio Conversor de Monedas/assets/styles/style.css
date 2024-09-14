@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   
+}
+
+.principal {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 25vw;
+   
+    padding: 6.6%;
+    border-radius: 1em;
+  margin: 0;
+  background-image: url('/assets/img/dolar-istock.jpg');
+  background-size:1000px;
+  animation: moverFondo 10s infinite ease-in-out;
+}
+
+@keyframes moverFondo {
+    0% {
+      background-position: 0% 25%;
+    }
+    100% {
+      background-position: 100% 25%;
+    }
+  }
+
+  .box1 {
+    background-color: rgba(0, 0, 0, 0.651);
+    color:white;
+    padding:2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxMoneda {
+    background-color: rgba(0, 0, 0, 0.651);
+    color:white;
+    padding:2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #inputValor{
+    width: 100%;
+margin-top: 1em;  
+
+padding: .5em;}
+
+  
+  #monedaSelect {
+    margin-top: 1em;
+    padding: 0.5em;
+  }
+  button{
+    color:white;
+    padding:1em;     
+    border-radius: .5em;
+    background-color: black;
+    font-weight: bold;
+    margin-top: .5em;
+    
+  }
+
+  .seccionCanvas {
+    background-color: rgba(255, 255, 255, 0.548);
+    width: 50vw;
+  }
+
+  .valorFinal { color:white;
+    padding:.5em;     
+    border-radius: .5em;
+    background-color: black;
+    font-weight: bold;
+    margin-top: .5em;
+
+  }
